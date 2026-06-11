@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+}
+@font-face {
+ font-family: "cour";
+ src: url("../img/police/cour.ttf");
+}
+a, p, .contact{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "cour";
+    font-size: 1em;
+
+}
+
+a:hover
+{
+     color:#00A0C6;
+     text-decoration:none;
+     cursor:pointer;
+}
+@media only screen and (max-width: 600px) {
+  iframe{
+    width: 400px;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  iframe{
+    width: 290px;
+    height: 180px;
+  }
+}
+.loader {
+ margin:0 auto;
+ 
+    left: 49.5%; 
+    transform: translate(-50%, 0); 
+    position: absolute;
+  -webkit-animation: spin 1.5s linear infinite; /* Safari */
+  animation: spin 0.3s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.ihm{
+  border : 1px solid white;
+}
+
